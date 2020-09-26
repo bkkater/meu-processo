@@ -25,3 +25,18 @@ Front End
 
 ## 📏 Mentores
 - [Augusto](https://www.linkedin.com/)
+
+
+### 📱 Como Rodar o Projeto
+Para rodar o projeto é necessário fazer o clone do repositório
+
+```bash
+# Vá para a pasta meu-processo
+$ cd meu-processo
+
+# Instale as depedencias
+$ yarn install
+
+# Rode a aplicação
+$ yarn start
+```
