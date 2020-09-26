@@ -1,8 +1,8 @@
-## ... 🚀 em construção... 🚧
+## Meu Processo 🚀 em construção... 🚧
 
 ## 💻 Sobre o projeto
 
-> ...
+> O projeto Meu Processo é um ...
 
 
 ## 🛠 Tecnologias
