@@ -18,10 +18,10 @@ Front End
 
 ## 🤖 Equipe
 - [Bianca](https://github.com/bkkater)
-- [Paulo](https://www.linkedin.com)
-- [Guilherme](https://www.linkedin.com)
-- [Rodrigo](https://www.linkedin.com)
-- [Abner](https://www.linkedin.com)
+- [Paulo](https://www.linkedin.com/in/paulodocarmo/)
+- [Guilherme](https://www.linkedin.com/in/guilherme-s-carmo/)
+- [Rodrigo](https://www.linkedin.com/in/rodrigo-de-ara%C3%BAjo-tem%C3%B3teo-42020317/)
+- [Abner](https://www.linkedin.com/in/abnerdev/)
 
 ## 📏 Mentores
 - [Augusto](https://www.linkedin.com/)
