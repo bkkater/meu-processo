@@ -1,0 +1,29 @@
+.blue-field {
+    background: #4D78BD;
+    border-radius: 5px;
+
+    padding: 15px;
+    margin-bottom: 10px;
+
+    max-width: 327px;
+}
+
+.blue-field h4 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: rgba(255, 255, 255, 0.94);
+    margin: 0;
+    margin-bottom: 6px;
+
+    height: auto;
+}
+
+.blue-field.dif {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: end;
+}

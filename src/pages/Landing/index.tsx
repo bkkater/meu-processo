@@ -4,13 +4,14 @@ import BlueCard from '../../components/BlueCard';
 import Button from '../../components/Button';
 import Header from '../../components/Header';
 import ProcessCard from '../../components/ProcessCard';
+import Footer from '../../components/Footer';
+import SituationCard from '../../components/SituationCard';
+import BordelessCard from '../../components/BordelessCard';
+import InformationCard from '../../components/InformationCard';
 
 import logo from '../../assets/icons/logo.svg'
 
 import './styles.css'
-import Footer from '../../components/Footer';
-import SituationCard from '../../components/SituationCard';
-import BordelessCard from '../../components/BordelessCard';
 
 function Landing() {
     return (
@@ -30,6 +31,8 @@ function Landing() {
                 <BlueCard/>
 
                 <BordelessCard/>
+
+                <InformationCard/>
             </div>
 
             <Footer/>
