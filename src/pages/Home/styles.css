@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 26px 0 0 0;
+}
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    max-width: 980px;
+
+    margin-bottom: 20px;
+}
+
+.content-container {
+    background-color: var(--color-content-background);
+    width: 90%;
+    padding: 20px 15px;
+    border-radius: 20px;
+    max-width: 980px;
+}

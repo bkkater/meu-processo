@@ -1,41 +1,49 @@
 import React from 'react';
 
-import BlueCard from '../../components/BlueCard';
-import Button from '../../components/Button';
 import Header from '../../components/Header';
-import ProcessCard from '../../components/ProcessCard';
 import Footer from '../../components/Footer';
-import SituationCard from '../../components/SituationCard';
-import BordelessCard from '../../components/BordelessCard';
-import InformationCard from '../../components/InformationCard';
+import ContentHeader from '../../components/ContentHeader';
+import LocalCard from '../../components/LocalCard';
 
-import logo from '../../assets/icons/logo.svg'
+import border from '../../assets/icons/border.svg'
 
 import './styles.css'
+import SearchButton from '../../components/SearchButton';
+import { Link } from 'react-router-dom';
 
 function Landing() {
     return (
         <div className='container'>
             <Header />
 
-            <div className='content-header'>
-                <img src={logo} alt="Meu Processo"/>
-                <Button />
+            <ContentHeader searchProcess={false} />
+
+            <h3>Olhar de</h3>
+
+            <div className="LocalCard-content">
+                <LocalCard isDisponible={true} name='TRF5' />
+                <LocalCard isDisponible={false} name='TRF4' />
+                <LocalCard isDisponible={false} name='TRF3' />
+                <LocalCard isDisponible={false} name='TRF2' />
+                <LocalCard isDisponible={false} name='TRF1' />
             </div>
 
-            <ProcessCard />
+            <div className="processNumber-container">
+                <div className="field">
+                    <label>Número do processo</label>
+                    <input type="text" />
+                </div>
 
-            <div className='content-container'>
-                <SituationCard/>
+                <div className="field">
+                    <label>O seu CPF</label>
+                    <input type="text" />
+                </div>
 
-                <BlueCard/>
-
-                <BordelessCard/>
-
-                <InformationCard/>
+                <div className="next-page">
+                    <Link to='/' className=''><SearchButton name='Prosseguir' /></Link>
+                </div>
             </div>
-
-            <Footer/>
+            <Footer />
         </div>
     );
 }
