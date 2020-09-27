@@ -23,6 +23,8 @@
     margin-right: 20px;
     margin-bottom: 20px;
     cursor: pointer;
+
+    color: var(--color-button);
 }
 
 .footer-content img {

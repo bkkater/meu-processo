@@ -41,6 +41,8 @@ input {
     border: none;
     outline: none;
     margin-left: 10px;
+
+    color: var(--text-in-blue);
 }
 
 ::-webkit-input-placeholder {
@@ -71,6 +73,7 @@ input {
 .termCardScroll::-webkit-scrollbar{
     -webkit-appearance: none;
     height: 8px;
+    width: 10px;
 }
 .termCardScroll::-webkit-scrollbar-button{
     display: none;

@@ -47,3 +47,45 @@
     top: 25px;
     right: 20px;
 }
+
+.progress-bar {
+    width: 100%;
+    height: 30px;
+}
+
+h5 {
+    color: var(--color-button);
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 14px;
+
+    margin-top: 15px;
+}
+
+.progress-icons {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 50px;
+}
+
+.data-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+    cursor: pointer;
+}
+
+.data-details p{
+    margin-right: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+    color: var(--color-button);
+}
+
+.data-details img{
+    margin-top: 13px;
+}

@@ -9,9 +9,11 @@
 }
 .content-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+
+    width: 90%;
+    max-width: 980px;
 
     margin-bottom: 20px;
 }
