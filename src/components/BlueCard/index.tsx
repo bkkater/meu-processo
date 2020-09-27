@@ -34,9 +34,9 @@ function BlueCard() {
                     </div>
 
                     <div className='termCardScroll'>
-                        <TermCard title='Ato ordinatório' description='Pratica de alguma coisa. Ex: informar ou realizar ato...' />
-                        <TermCard title='Acórdão' description='Decisão parecida com uma sentença realizada por des...' />
-                        <TermCard title='Agravo' description='O meio que o cidadão...' />
+                        <TermCard title='Acórdão' description='A decisão do recurso que foi dada pelos juízes.' />
+                        <TermCard title='Agravo' description='Um dos tipos de recurso contra uma decisão. A pessoa que faz um Agravo é chamada de Agravante.' />
+                        <TermCard title='Ato ordinatório' description='São ordens do juiz para atos mais simples para que o processo continue caminhando.' />
                     </div>
                 </div>
             </div>

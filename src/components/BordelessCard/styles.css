@@ -51,10 +51,22 @@ h2 strong {
     .process-place p {
         width: 360px;
         line-height: 180%;
+
+        margin-top: 20px;
+        
+        font-size: 18px;
     }
 
     .bordelessCard-content {
         margin-top: 0;
         margin-right: 30px;
+    }
+
+    .bordelessCard-content  img {
+        width: 7px;
+    }
+
+    .process-place {
+        justify-content: space-around;
     }
 }

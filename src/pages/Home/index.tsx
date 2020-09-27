@@ -10,6 +10,7 @@ import InformationCard from '../../components/InformationCard';
 
 import './styles.css'
 import ContentHeader from '../../components/ContentHeader';
+import StageCard from '../../components/StageCard';
 
 function Home() {
     return (
@@ -23,13 +24,19 @@ function Home() {
             <div className='content-container'>
                 <SituationCard />
 
-                <BlueCard />
+                <div className="responsive-StageCard">
+                    <StageCard/>
+                </div>
 
                 <div className="responsiveDiv">
                     <BordelessCard />
 
                     <InformationCard />
                 </div>
+
+                <BlueCard />
+
+                
             </div>
 
             <Footer />

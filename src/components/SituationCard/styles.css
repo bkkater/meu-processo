@@ -158,4 +158,8 @@ h5 {
         margin-right: -8px;
         height: 100px;
     }
+
+    .yourProcess {
+        font-size: 18px!important;
+    }
 }

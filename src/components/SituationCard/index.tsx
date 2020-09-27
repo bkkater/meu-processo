@@ -23,7 +23,7 @@ function SituationCard() {
                 <div className="progressDescription-content">
                     <h4 className='processDescription'>O seu processo está assim</h4>
                     <p className='data'>08/06/2020</p>
-                    <p>Seu processo “transitou em julgado”, que é quando a última decisão é tomada e ninguém se opõe.  Daí, o processo acaba e é “baixado”.</p>
+                    <p className='yourProcess'>Seu processo “transitou em julgado”, que é quando a última decisão é tomada e ninguém se opõe.  Daí, o processo acaba e é “baixado”.</p>
 
                 </div>
 
