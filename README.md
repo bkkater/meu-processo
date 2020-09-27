@@ -19,7 +19,7 @@ Front End
 
 
 ## 🎨 Layout
-> O [layout](https://www.figma.com) da aplicação está disponível no Figma:
+> O [layout](https://www.figma.com/file/sZyJwCtAhSifF9WzVDsoXK/Meu-Processo?node-id=22%3A213) da aplicação está disponível no Figma:
 
 ## 🤖 Equipe
 - [Bianca](https://github.com/bkkater)
