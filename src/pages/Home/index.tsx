@@ -1,4 +1,6 @@
-import React from 'react';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import React, { useEffect } from 'react';
+import api from '../../service/api'
 
 import BlueCard from '../../components/BlueCard';
 import Header from '../../components/Header';
@@ -37,6 +39,11 @@ function Home() {
     function handleScrollToDiv5(){
         const div5 = document.getElementById('div5')
         $('html, body').animate({scrollTop: div5?.offsetTop}, 'slow');
+    }
+
+    const request = async (processo_number: string, cpf_user: string) => {
+      const response = await api.get(`processo/${processo_number}/${cpf_user}`)
+      return response.data
     }
 
     return (

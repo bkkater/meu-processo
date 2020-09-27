@@ -1,43 +1,51 @@
-import React from 'react';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import React from 'react'
 
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import ContentHeader from '../../components/ContentHeader';
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import ContentHeader from '../../components/ContentHeader'
 
 import './styles.css'
-import SearchButton from '../../components/SearchButton';
-import { Link } from 'react-router-dom';
+import SearchButton from '../../components/SearchButton'
+import { Link } from 'react-router-dom'
+import { useAuth } from '../../contexts'
 
 function ConfrimResult() {
-    function HandleScroll(){
-        console.log('alo')
-    }
+  function HandleScroll() {
+    console.log('alo')
+  }
+  const { setNumProcesso, setCpfUser } = useAuth()
+  return (
+    <div className="container">
+      {HandleScroll}
+      <Header />
 
-    return (
-        <div className='container'>
-            {HandleScroll}
-            <Header />
+      <ContentHeader searchProcess={false} />
 
-            <ContentHeader searchProcess={false} />
+      <div className="processNumber-container">
+        <form>
+          <div className="field">
+            <label>Número do processo</label>
+            <input type="text" />
+          </div>
 
-            <div className="processNumber-container">
-                <div className="field">
-                    <label>Número do processo</label>
-                    <input type="text" />
-                </div>
+          <div className="field">
+            <label>O seu CPF</label>
+            <input type="text" />
+          </div>
+        </form>
 
-                <div className="field">
-                    <label>O seu CPF</label>
-                    <input type="text" />
-                </div>
-
-                <div className="next-page">
-                    <Link to='/ConfirmResult' className=''><SearchButton name='Prosseguir' /></Link>
-                </div>
-            </div>
-            <Footer />
+        <div className="next-page">
+          <button type="submit">
+            <Link to="/ConfirmResult" className="">
+              <SearchButton name="Prosseguir" />
+            </Link>
+          </button>
         </div>
-    );
+      </div>
+      <Footer />
+    </div>
+  )
 }
 
-export default ConfrimResult;
+export default ConfrimResult
