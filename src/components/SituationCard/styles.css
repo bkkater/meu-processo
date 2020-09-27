@@ -1,0 +1,49 @@
+.situationCard-container {
+    background-color: var(--color-background);
+    color: var(--text);
+
+    border-radius: 10px;
+    padding: 20px 25px;
+
+    margin-bottom: 30px;
+
+    position: relative;
+}
+
+.situationCard-container p {
+    color: var(--text-in-white);
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.data {
+    font-size: 14px!important;
+    color: var(--color-blue-container);
+}
+
+.titleText-inWhite {
+    font-size: 24px;
+    line-height: 28px;
+    height: 62px;
+    width: 313px;
+
+    color: var(--text-in-white);
+}
+
+.processDescription {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 16px;
+    color: var(--text-in-white);
+
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+}
+
+.situation-icon {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}

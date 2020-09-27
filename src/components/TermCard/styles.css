@@ -1,0 +1,30 @@
+.termCard-container {
+    background: var(--color-light-blue-card);
+
+    width: 135px;
+    height: 120px;
+
+    border-radius: 5px;
+    font-size: 16px;
+
+    padding: 15px;
+
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+h4{
+    margin-bottom: 10px;
+    width: 115px;
+    height: 31px;
+}
+
+.termDescription {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+
+    width: 113px;
+    height: 42px;
+}

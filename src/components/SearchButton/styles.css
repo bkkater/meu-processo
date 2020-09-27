@@ -1,0 +1,25 @@
+.search-button {
+    background-color: var(--color-button);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    padding: 12px 30px;
+
+    color: var(--text);
+    font-family: 'Ubuntu', sans-serif;
+
+    margin-top: 15px;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+
+    line-height: 14px;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+}

@@ -3,7 +3,8 @@
     font-family: 'Ubuntu', sans-serif;
 
     --color-background: #F9F9F9;
-    --color-content-background: #E5E5E5;
+    --color-content-background: #e9e9e9;
+    --color-content-footer: #071D41;
 
     --color-blue-container: #071C3D;
 
@@ -11,10 +12,15 @@
 
     --color-button: #1555BD;
 
+    --color-field: #040F20;
+
     --text-in-white: #383838;
     --text-in-color: #FFF3F3;
+    --text-in-blue: #C4C4C4;
+
     --text-button: #1555BD;
     --text: #FFF;
+
 }
 
 * {
@@ -33,8 +39,6 @@ body {
 
 #root {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 body, input, button, textarea, a {
