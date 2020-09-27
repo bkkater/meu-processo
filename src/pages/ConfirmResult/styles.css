@@ -1,0 +1,71 @@
+.LocalCard-content {
+    display: flex;
+
+    width: 95%;
+    margin-top: 20px;
+}
+
+.container h3 {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 3%;
+}
+
+.processNumber-container {
+    width: 95%;
+    height: 328px;
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    max-width: 700px;
+    align-self: flex-start;
+    margin: 3%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+}
+
+.processNumber-container img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field label{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.field input {
+    padding: 15px;
+    background: #eeeeee;
+    border-radius: 5px;
+
+    border: none;
+    outline: none;
+
+    margin-top: 10px;
+
+    max-width: 700px;;
+}
+
+.next-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}

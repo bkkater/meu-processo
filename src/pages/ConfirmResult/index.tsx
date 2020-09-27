@@ -7,27 +7,23 @@ import ContentHeader from '../../components/ContentHeader';
 import './styles.css'
 import SearchButton from '../../components/SearchButton';
 import { Link } from 'react-router-dom';
+import ConfirmResultCard from '../../components/ConfirmResultCard';
 
-function ConfrimResult() {
+function Landing() {
     return (
         <div className='container'>
             <Header />
 
             <ContentHeader searchProcess={false} />
 
-            <div className="processNumber-container">
-                <div className="field">
-                    <label>Número do processo</label>
-                    <input type="text" />
-                </div>
+            <ConfirmResultCard/>
 
-                <div className="field">
-                    <label>O seu CPF</label>
-                    <input type="text" />
-                </div>
+            <div className="processNumber-container">
+
+
 
                 <div className="next-page">
-                    <Link to='/ConfirmResult' className=''><SearchButton name='Prosseguir' /></Link>
+                    <Link to='/' className=''><SearchButton name='Prosseguir' /></Link>
                 </div>
             </div>
             <Footer />
@@ -35,4 +31,4 @@ function ConfrimResult() {
     );
 }
 
-export default ConfrimResult;
+export default Landing;

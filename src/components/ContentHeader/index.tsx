@@ -17,7 +17,7 @@ const ContentHeader: React.FC<ContentHeaderProps> = ({ searchProcess }) => {
             <div className='content-header-container'>
                 <div className="link-container">
                     <Link to="/Landing" className='link'>Voltar para pesquisa</Link>
-                    <a href="" className='link'>Ajuda</a>
+                    <a href="https://www.gov.br/acessoainformacao/pt-br" className='link'>Ajuda</a>
                 </div>
                 <div className='content-header'>
                     <img src={logo} alt="Meu Processo" />
@@ -29,7 +29,7 @@ const ContentHeader: React.FC<ContentHeaderProps> = ({ searchProcess }) => {
     return (
         <div className='content-header-container'>
         <div className="link-container">
-            <a href="" className='link'>Ajuda</a>
+            <a href="https://www.gov.br/acessoainformacao/pt-br" className='link'>Ajuda</a>
         </div>
         <div className='content-header dif'>
             <img src={logo} alt="Meu Processo" />
