@@ -28,3 +28,24 @@ h4{
     width: 113px;
     height: 42px;
 }
+
+@media (min-width: 1100px) {
+    .termCard-container {
+        width: 195px;
+        height: 173px;
+
+        padding: 30px 40px;
+    }
+
+    .termCard-container h4 {
+        width: auto;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .termDescription {
+        font-size: 14px;
+    }
+
+
+}

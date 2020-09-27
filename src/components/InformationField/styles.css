@@ -5,7 +5,7 @@
     padding: 15px;
     margin-bottom: 10px;
 
-    max-width: 327px;
+    max-width: 507px;
 }
 
 .blue-field h4 {
@@ -31,4 +31,11 @@
 .blue-field.dif h3 {
     display: flex;
     align-items: flex-end;
+}
+
+
+@media (min-width: 1100px) {
+    .blue-field {
+        width: 300px;
+    }
 }

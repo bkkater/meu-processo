@@ -38,3 +38,9 @@
     line-height: 18px;
     font-weight: normal;
 }
+
+@media (min-width: 1500px) {
+    .link-container {
+        flex-direction: column;
+    }
+}

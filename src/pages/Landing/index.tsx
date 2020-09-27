@@ -9,8 +9,13 @@ import SearchButton from '../../components/SearchButton';
 import { Link } from 'react-router-dom';
 
 function ConfrimResult() {
+    function HandleScroll(){
+        console.log('alo')
+    }
+
     return (
         <div className='container'>
+            {HandleScroll}
             <Header />
 
             <ContentHeader searchProcess={false} />

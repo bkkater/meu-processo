@@ -15,28 +15,31 @@ function BlueCard() {
 
             <p className='termsDescription'>Um pouco menos de juridiquês pra você</p>
 
-            <div className='inputSearch'>
-                <img src={search} alt="Pesquisar" />
-                <input placeholder='Digite aqui'></input>
+            <div className="responsiveSearch-container">
+                <div className="responsive-search">
+                    <div className='inputSearch'>
+                        <img src={search} alt="Pesquisar" />
+                        <input placeholder='Digite aqui'></input>
+                    </div>
+
+                    <div className='searchButtonContainer'>
+                        <SearchButton name='Pesquisar' />
+                    </div>
+                </div>
+
+                <div className="inutilContainer">
+                    <div className='letter-filter'>
+                        <h3>A</h3>
+                        <img src={arrowRight} alt="Proxima letra" />
+                    </div>
+
+                    <div className='termCardScroll'>
+                        <TermCard title='Ato ordinatório' description='Pratica de alguma coisa. Ex: informar ou realizar ato...' />
+                        <TermCard title='Acórdão' description='Decisão parecida com uma sentença realizada por des...' />
+                        <TermCard title='Agravo' description='O meio que o cidadão...' />
+                    </div>
+                </div>
             </div>
-
-            <div className='searchButtonContainer'>
-                <SearchButton name='Pesquisar' />
-            </div>
-
-            <div className='letter-filter'>
-                <h3>A</h3>
-                <img src={arrowRight} alt="Proxima letra" />
-            </div>
-
-            <div className='termCardScroll'>
-                <TermCard title='Ato ordinatório' description='Pratica de alguma coisa. Ex: informar ou realizar ato...' />
-                <TermCard title='Acórdão' description='Decisão parecida com uma sentença realizada por des...' />
-                <TermCard title='Agravo' description='O meio que o cidadão...' />
-            </div>
-
-
-
 
         </div>
     );

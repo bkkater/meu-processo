@@ -83,3 +83,20 @@
     box-shadow: 0 0 1px rgba(255,255,255,.5);
     background-color: rgba(172, 172, 172, 0.342);
 }
+
+@media (min-width: 1100px) {
+    .responsive-search {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .responsiveSearch-container {
+        display: flex;
+    }
+
+    .inutilContainer {
+        margin-top: -80px;
+        overflow: auto;
+    }
+}

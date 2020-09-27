@@ -9,6 +9,12 @@
     margin-bottom: 20px;
 }
 
+.bordelessCard-content img {
+    margin-top: -5px;
+    width: 10%;
+    max-width: 7px;
+}
+
 .process-place {
     display: flex;
     flex-direction: column;
@@ -25,6 +31,11 @@ h2 strong {
     margin-top: 8px;
     font-size: 16px;
     font-weight: normal;
+
+    margin-bottom: 60px;
+
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
 }
 
 .process-place h2 {
@@ -34,4 +45,16 @@ h2 strong {
     line-height: 28px;
 
     color: #040F20;
+}
+
+@media (min-width: 1100px) {
+    .process-place p {
+        width: 360px;
+        line-height: 180%;
+    }
+
+    .bordelessCard-content {
+        margin-top: 0;
+        margin-right: 30px;
+    }
 }

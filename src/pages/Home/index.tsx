@@ -16,21 +16,23 @@ function Home() {
         <div className='container'>
             <Header />
 
-            <ContentHeader searchProcess={true}/>
+            <ContentHeader searchProcess={true} />
 
             <ProcessCard />
 
             <div className='content-container'>
-                <SituationCard/>
+                <SituationCard />
 
-                <BlueCard/>
+                <BlueCard />
 
-                <BordelessCard/>
+                <div className="responsiveDiv">
+                    <BordelessCard />
 
-                <InformationCard/>
+                    <InformationCard />
+                </div>
             </div>
 
-            <Footer/>
+            <Footer />
         </div>
     );
 }
