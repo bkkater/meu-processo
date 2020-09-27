@@ -11,6 +11,7 @@ Front End
 
 - React
 - Typescript
+- jQuery
 
 
 ## 🎨 Layout
