@@ -29,9 +29,11 @@ Front End
 
 
 ### 📱 Como Rodar o Projeto
-Para rodar o projeto é necessário fazer o clone do repositório
 
 ```bash
+# Clone o repositório
+$ git clone https://github.com/bkkater/meu-processo.git
+
 # Vá para a pasta meu-processo
 $ cd meu-processo
 
