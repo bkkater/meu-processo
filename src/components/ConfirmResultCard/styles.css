@@ -3,21 +3,23 @@
     color: var(--text);
 
     border-radius: 10px;
-    padding: 20px 25px;
+    padding: 25px;
 
     margin-bottom: 30px;
 
     position: relative;
 
-    background-image: url('../../assets/icons/illustration.svg');
+    background-image: url('../../assets/icons/illustration-dif.svg');
     background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: 98% 60%;
+    background-size: 45%;
+    background-position: 88% 76%;
+
 
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 25px;
 
+    height: 760px;
 }
 
 .titleText-inWhite {
@@ -33,4 +35,8 @@
     display: flex;
 
     margin-bottom: 100px;
+}
+
+.next-page {
+    margin-bottom: -5px;
 }

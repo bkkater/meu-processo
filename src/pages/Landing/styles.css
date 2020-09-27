@@ -7,7 +7,7 @@
 
 .processNumber-container {
     width: 95%;
-    height: 328px;
+    height: 50%;
 
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
@@ -17,7 +17,7 @@
 
     padding: 15px;
 
-    max-width: 700px;
+    max-width: 500px;
     align-self: flex-start;
     margin: 3%;
 }
@@ -54,7 +54,7 @@
 
     margin-top: 10px;
 
-    max-width: 700px;;
+    max-width: 700px;
 }
 
 .next-page {
