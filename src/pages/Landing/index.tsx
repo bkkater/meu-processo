@@ -10,6 +10,7 @@ import logo from '../../assets/icons/logo.svg'
 import './styles.css'
 import Footer from '../../components/Footer';
 import SituationCard from '../../components/SituationCard';
+import BordelessCard from '../../components/BordelessCard';
 
 function Landing() {
     return (
@@ -27,6 +28,8 @@ function Landing() {
                 <SituationCard/>
 
                 <BlueCard/>
+
+                <BordelessCard/>
             </div>
 
             <Footer/>

@@ -6,10 +6,10 @@ import './styles.css';
 
 function BordelessCard() {
     return (
-        <div>
+        <div className='bordelessCard-content'>
             <img src={verticalLine} alt="" />
 
-            <div>
+            <div className='process-place'>
                 <h2>O seu processo está no <strong>TRF5</strong></h2>
 
                 <p>Outra explicação blá blá blá Outra explicação blá blá blá Outra explicação blá blá blá  Outra explicação blá blá blá Outra explicação blá blá blá Outra explicação blá blá blá Outra explicação blá blá blá Outra explicação blá blá blá Outra explicação blá blá blá</p>
