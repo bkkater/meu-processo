@@ -8,6 +8,11 @@
     margin-bottom: 30px;
 
     position: relative;
+
+    background-image: url('../../assets/icons/illustration.svg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 150% 110%;
 }
 
 .titleText-inWhite {
@@ -17,4 +22,10 @@
     width: 313px;
 
     color: var(--text-in-white);
+}
+
+.contentCard-conteiner {
+    display: flex;
+
+    margin-bottom: 100px;
 }

@@ -36,7 +36,7 @@
     background-color: var(--color-field);
 }
 
-input {
+.inputSearch input {
     background-color: transparent;
     border: none;
     outline: none;

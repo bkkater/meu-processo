@@ -21,7 +21,7 @@ function BlueCard() {
             </div>
 
             <div className='searchButtonContainer'>
-                <SearchButton />
+                <SearchButton name='Pesquisar' />
             </div>
 
             <div className='letter-filter'>

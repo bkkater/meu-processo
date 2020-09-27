@@ -2,12 +2,12 @@ import React from 'react';
 
 import './styles.css';
 
-interface ProcessFieldProps {
+interface InformationFieldProps {
   fromSomebody: boolean;
   name: string;
 }
 
-const ProcessField: React.FC<ProcessFieldProps> = ({ fromSomebody, name }) => {
+const InformationField: React.FC<InformationFieldProps> = ({ fromSomebody, name }) => {
   if (fromSomebody) {
     return (
       <div className='blue-field'>
@@ -24,4 +24,4 @@ const ProcessField: React.FC<ProcessFieldProps> = ({ fromSomebody, name }) => {
   );
 }
 
-export default ProcessField;
+export default InformationField;
