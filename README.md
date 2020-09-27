@@ -1,3 +1,7 @@
+<h1 align ="center" display= 'flex'>
+    <img src="src/assets/mockup.png" alt="Imagem do App" title="#Meu Processo"></img>
+</h1>
+
 ## Meu Processo 🚀 em construção... 🚧
 
 ## 💻 Sobre o projeto
