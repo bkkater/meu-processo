@@ -1,5 +1,61 @@
 .stageCard-section {
     background: #4D78BD;
     border-radius: 5px;
-    flex: 2;
+    flex: 2 1;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 235px;
+}
+
+.stageCard-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    min-height: 21px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 35px;
+ }
+
+ .stageCard-section-content:first-child {
+    margin-top: 20px;
+ }
+
+.stageCard-section-content h3 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+hr {
+    flex: 1 1;
+    margin: 0 20px;
+    margin-top: 2px;
+    border-radius: 50px;
+    width: auto;
+    background: #FFFFFF;
+    border: 1.5px solid rgba(255, 255, 255, 0.94);
+}
+
+.stageCardScroll {
+    overflow: auto;
+
+    margin: auto 5px;
+}
+
+.stageCardScroll::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 8px;
+}
+.stageCardScroll::-webkit-scrollbar-button{
+    display: none;
+}
+.stageCardScroll::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: #385788;
+
+    min-height: 20px;
 }

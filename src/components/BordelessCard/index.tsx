@@ -6,7 +6,7 @@ import './styles.css';
 
 function BordelessCard() {
     return (
-        <div className='bordelessCard-content'>
+        <div className='bordelessCard-content' id='div4'>
             <img src={verticalLine} alt="" />
 
             <div className='process-place'>

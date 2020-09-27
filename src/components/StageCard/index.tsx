@@ -11,13 +11,13 @@ import StageContentCard from '../StageContentCard';
 
 function StageCard() {
     return (
-        <div className='stageCard-container'>
+        <div className='stageCard-container' id='div2'>
             <h2 className='titleText-inWhite'>Etapas</h2>
 
             <p className='processDescription'>O progresso do processo</p>
             <h5>Todas as etapas concluidas</h5>
 
-            <img src={progressBar} alt="Barra de progresso" />
+            <img src={progressBar} alt="Barra de progresso" className='bigProgressBar'/>
 
             <div className='progress-icons dif'>
                 <img src={progressStartIcon} alt="" />

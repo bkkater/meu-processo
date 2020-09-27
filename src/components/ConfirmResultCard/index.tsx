@@ -2,10 +2,7 @@ import React from 'react';
 
 import './styles.css'
 
-import map from '../../assets/icons/map-icon.svg'
-
 import ProcessField from '../InformationField';
-import InformationContentCard from '../InformationContentCard';
 import { Link } from 'react-router-dom';
 import SearchButton from '../SearchButton';
 
@@ -18,12 +15,6 @@ function ConfirmResultCard() {
             <ProcessField fromSomebody={false} name='Correios' />
 
             <div className="contentCard-conteiner">
-                <InformationContentCard
-                    name='Local'
-                    content='Natal'
-                >
-                    <img src={map} alt="Local" />
-                </InformationContentCard>
             </div>
 
             <div className="next-page">

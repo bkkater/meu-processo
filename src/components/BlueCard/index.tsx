@@ -10,7 +10,7 @@ import TermCard from '../TermCard';
 
 function BlueCard() {
     return (
-        <div className='blueCard-container'>
+        <div className='blueCard-container' id='div5'>
             <h2 className='titleText'>Termos que aparecem no seu processo</h2>
 
             <p className='termsDescription'>Um pouco menos de juridiquês pra você</p>

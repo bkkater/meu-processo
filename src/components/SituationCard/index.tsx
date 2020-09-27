@@ -14,7 +14,7 @@ import verticalLine from '../../assets/icons/vertical-line.svg'
 
 function SituationCard() {
     return (
-        <div className='situationCard-container'>
+        <div className='situationCard-container' id='div1'>
             <h2 className='titleText-inWhite'>Situação atual do seu processo</h2>
             <img src={icon} alt="" className='situation-icon' />
 

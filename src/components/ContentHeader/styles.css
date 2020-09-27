@@ -39,12 +39,14 @@
     font-weight: normal;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1100px) {
     .link-container {
         flex-direction: column;
+        top: 9%;
+        right: 0;
     }
 
     .content-header {
-        display: none;
+        display: none!important;
     }
 }

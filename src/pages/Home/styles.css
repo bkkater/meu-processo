@@ -23,11 +23,61 @@
     width: 90%;
     padding: 20px 15px;
     border-radius: 20px;
-    max-width: 980px;
+    max-width: 893px;
 }
 
 .responsive-StageCard {
     display: none;
+}
+
+.responsive-mainContainer {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.responsive-mainContainer-left {
+    display: none;
+}
+
+.responsive-mainContainer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li {
+    text-align: center;
+}
+
+ul li .integraDetails {
+    font-size: 25px;
+    padding: 15px 8px;
+    color: #232323;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #040F20;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sectionLink{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 250.4%;
+    color: #1555BD;
+    background-color: transparent;
 }
 
 @media (min-width: 1100px) {
@@ -39,5 +89,19 @@
 
     .responsive-StageCard {
         display: block;
+    }
+
+    .responsive-mainContainer-left {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .responsive-mainContainer-right {
+        flex: 5 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
