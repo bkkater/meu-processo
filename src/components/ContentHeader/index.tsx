@@ -29,7 +29,7 @@ const ContentHeader: React.FC<ContentHeaderProps> = ({ searchProcess }) => {
     return (
         <div className='content-header-container'>
         <div className="link-container">
-            <a href="https://www.gov.br/acessoainformacao/pt-br" className='link'>Ajuda</a>
+            <a href="https://www.gov.br/acessoainformacao/pt-br" className='link dif'>Ajuda</a>
         </div>
         <div className='content-header dif'>
             <img src={logo} alt="Meu Processo" />

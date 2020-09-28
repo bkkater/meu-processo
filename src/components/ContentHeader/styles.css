@@ -39,6 +39,11 @@
     font-weight: normal;
 }
 
+.link.dif {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
 @media (min-width: 1100px) {
     .link-container {
         flex-direction: column;
