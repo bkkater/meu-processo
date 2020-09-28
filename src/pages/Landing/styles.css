@@ -6,20 +6,7 @@
 }
 
 .processNumber-container {
-    width: 95%;
-    height: 50%;
-
-    border: 1px solid #E5E5E5;
-    box-sizing: border-box;
-    border-radius: 25px;
-
-    margin-top: 20px;
-
-    padding: 15px;
-
-    max-width: 500px;
-    align-self: flex-start;
-    margin: 3%;
+    height: 378px!important;
 }
 
 .field {
@@ -62,4 +49,8 @@
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 50px;
+}
+
+.button-submit {
+    background: transparent;
 }

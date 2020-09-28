@@ -36,7 +36,7 @@ function ConfrimResult() {
         </form>
 
         <div className="next-page">
-          <button type="submit">
+          <button type="submit" className="button-submit">
             <Link to="/ConfirmResult" className="">
               <SearchButton name="Prosseguir" />
             </Link>
