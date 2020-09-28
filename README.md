@@ -18,6 +18,13 @@ Front End
 - Typescript
 - jQuery
 
+Back End
+
+- Node
+- Axios
+- MongoDB
+- Typescript
+
 
 ## 🎨 Layout
 > O [layout](https://www.figma.com/file/sZyJwCtAhSifF9WzVDsoXK/Meu-Processo?node-id=22%3A213) da aplicação está disponível no Figma:
