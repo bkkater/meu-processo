@@ -15,7 +15,7 @@ function StageCard() {
             <h2 className='titleText-inWhite'>Etapas</h2>
 
             <p className='processDescription'>O progresso do processo</p>
-            <h5>Todas as etapas concluidas</h5>
+            <h5>Todas as etapas concluídas</h5>
 
             <img src={progressBar} alt="Barra de progresso" className='bigProgressBar'/>
 

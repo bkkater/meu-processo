@@ -36,7 +36,7 @@ function SituationCard() {
 
                 <div className="progressContent">
                     <h4 className='processDescription'>O progresso do processo</h4>
-                    <h5>TODAS AS ETAPAS CONCLUIDAS</h5>
+                    <h5>TODAS AS ETAPAS CONCLUÍDAS</h5>
                     <img src={progressBar} alt="Barra de progresso" className='progress-bar' />
 
                     <div className='progress-icons'>
