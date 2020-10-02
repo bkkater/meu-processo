@@ -18,7 +18,7 @@ function ConfirmResultCard() {
             </div>
 
             <div className="next-page">
-                    <Link to='/' className=''><SearchButton name='Prosseguir' /></Link>
+                    <Link to='/Home' className=''><SearchButton name='Prosseguir' /></Link>
             </div>
             
         </div>

@@ -5,8 +5,8 @@
     margin-top: 20px;
 }
 
-.processNumber-container {
-    height: 378px!important;
+.processNumber-container.dif{
+    height: 390px!important;
 }
 
 .field {

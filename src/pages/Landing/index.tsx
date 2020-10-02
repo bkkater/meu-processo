@@ -22,7 +22,7 @@ function ConfrimResult() {
 
       <ContentHeader searchProcess={false} />
 
-      <div className="processNumber-container">
+      <div className="processNumber-container dif">
         <form>
           <div className="field">
             <label>Número do processo</label>
