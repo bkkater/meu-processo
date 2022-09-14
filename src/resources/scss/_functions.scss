@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+$colors: () !default;
+$colors: map-merge(
+  (
+    "gray-222": $gray-222,
+    "gray-555": $gray-555,
+    "gray-777": $gray-777,
+    "gray-ddd": $gray-ddd,
+    "gray-bbb": $gray-bbb,
+    "color-background": $color-background,
+    "color-content-background": $color-content-background,
+    "color-dark-blue": $color-dark-blue,
+    "color-blue": $color-blue,
+    "color-light-blue": $color-light-blue,
+    "color-field": $color-field,
+    "base-text-color": $base-text-color,
+    "dark-text-color": $dark-text-color,
+  ),
+  $colors
+);
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "gray-222": $gray-222,
+    "gray-555": $gray-555,
+    "gray-777": $gray-777,
+    "gray-ddd": $gray-ddd,
+    "gray-bbb": $gray-bbb,
+    "color-background": $color-background,
+    "color-content-background": $color-content-background,
+    "color-dark-blue": $color-dark-blue,
+    "color-blue": $color-blue,
+    "color-light-blue": $color-light-blue,
+    "color-field": $color-field,
+    "base-text-color": $base-text-color,
+    "dark-text-color": $dark-text-color,
+  ),
+  $theme-colors
+);

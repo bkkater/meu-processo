@@ -1,41 +1,53 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Button from '../../components/Button'
+// Components
+import Button from "~/components/Button";
 
-import './styles.css';
+// Icons
+import Logo from "~/resources/icons/logo.svg";
 
-import logo from '../../assets/icons/logo.svg'
-import { Link } from 'react-router-dom';
+import "./styles.scss";
 
 interface ContentHeaderProps {
-    searchProcess: boolean;
+  searchProcess: boolean;
 }
 
 const ContentHeader: React.FC<ContentHeaderProps> = ({ searchProcess }) => {
-    if (searchProcess) {
-        return (
-            <div className='content-header-container'>
-                <div className="link-container">
-                    <Link to="/Landing" className='link'>Voltar para pesquisa</Link>
-                    <a href="https://www.gov.br/acessoainformacao/pt-br" className='link'>ajuda</a>
-                </div>
-                <div className='content-header'>
-                    <img src={logo} alt="Meu Processo" />
-                    <Button />
-                </div>
-            </div>
-        );
-    }
+  if (searchProcess) {
     return (
-        <div className='content-header-container'>
+      <div className="content-header-container">
         <div className="link-container">
-            <a href="https://www.gov.br/acessoainformacao/pt-br" className='link dif'>Ajuda</a>
+          <Link to="/Landing" className="link">
+            Voltar para pesquisa
+          </Link>
+          <a href="https://www.gov.br/acessoainformacao/pt-br" className="link">
+            ajuda
+          </a>
         </div>
-        <div className='content-header dif'>
-            <img src={logo} alt="Meu Processo" />
+        <div className="content-header">
+          <img src={Logo} alt="Meu Processo" />
+          <Button />
         </div>
-    </div>
+      </div>
     );
-}
+  }
+
+  return (
+    <div className="content-header-container">
+      <div className="link-container">
+        <a
+          href="https://www.gov.br/acessoainformacao/pt-br"
+          className="link dif"
+        >
+          Ajuda
+        </a>
+      </div>
+      <div className="content-header dif">
+        <img src={Logo} alt="Meu Processo" />
+      </div>
+    </div>
+  );
+};
 
 export default ContentHeader;

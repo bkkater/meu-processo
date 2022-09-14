@@ -1,24 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import ContentHeader from '../../components/ContentHeader';
+// Components
+import ContentHeader from "../../components/ContentHeader";
+import ConfirmResultCard from "../../components/ConfirmResultCard";
+import Page from "~/components/Page";
 
-import './styles.css'
-import ConfirmResultCard from '../../components/ConfirmResultCard';
+import "./styles.css";
 
-function Landing() {
-    return (
-        <div className='container'>
-            <Header />
-
-            <ContentHeader searchProcess={false} />
-
-            <ConfirmResultCard />
-
-            <Footer />
-        </div>
-    );
+function ConfirmResult() {
+  return (
+    <Page>
+      <ContentHeader searchProcess={false} />
+      <ConfirmResultCard />
+    </Page>
+  );
 }
 
-export default Landing;
+export default ConfirmResult;

@@ -1,0 +1,35 @@
+// Typography
+$base-font-family: "Roboto", sans-serif;
+$base-font-size: 1rem;
+$base-font-weight: 500;
+$base-line-height: 1.6;
+
+// Colors
+$base-text-color: #fff;
+$dark-text-color: #333;
+
+$white: #fff;
+$gray-777: #777777;
+$gray-555: #555555;
+$gray-222: #222222;
+$gray-ddd: #ddd;
+$gray-bbb: #bbb;
+$color-background: #f9f9f9;
+$color-content-background: #e9e9e9;
+$color-dark-blue: #071d41;
+$color-blue: #385788;
+$color-light-blue: #1555bd;
+$color-field: #040f20;
+
+// Body
+$body-bg: $color-background;
+
+// Sizes
+$sizes: (
+  25: 25%,
+  35: 35%,
+  50: 50%,
+  75: 75%,
+  100: 100%,
+  auto: auto,
+);

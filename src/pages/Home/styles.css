@@ -1,108 +1,109 @@
-.container {
-    width: 100%;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* .container {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 
-    padding: 26px 0 0 0;
+  padding: 26px 0 0 0;
 }
 .content-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    width: 90%;
-    max-width: 980px;
+  width: 90%;
+  max-width: 980px;
 
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .content-container {
-    background-color: var(--color-content-background);
-    width: 90%;
-    padding: 20px 15px;
-    border-radius: 20px;
-    max-width: 893px;
+  background-color: var(--color-content-background);
+  width: 90%;
+  padding: 20px 15px;
+  border-radius: 20px;
+  max-width: 893px;
 }
 
 .responsive-StageCard {
-    display: none;
+  display: none;
 }
 
 .responsive-mainContainer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    width: 100%;
+  width: 100%;
 }
 
 .responsive-mainContainer-left {
-    display: none;
+  display: none;
 }
 
 .responsive-mainContainer-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul li {
-    text-align: center;
+  text-align: center;
 }
 
 ul li .integraDetails {
-    font-size: 25px;
-    padding: 15px 8px;
-    color: #232323;
-    background-color: transparent;
-    outline: none;
-    border: 2px solid #040F20;
-    box-sizing: border-box;
-    border-radius: 5px;
-    margin-top: 10px;
+  font-size: 25px;
+  padding: 15px 8px;
+  color: #232323;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #040f20;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
-.sectionLink{
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 250.4%;
-    color: #1555BD;
-    background-color: transparent;
+.sectionLink {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 250.4%;
+  color: #1555bd;
+  background-color: transparent;
 }
 
 @media (min-width: 1100px) {
-    .responsiveDiv {
-        display: flex;
-        flex: 1;
-        margin-top: 40px;
-    }
+  .responsiveDiv {
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+  }
 
-    .responsive-StageCard {
-        display: block;
-    }
+  .responsive-StageCard {
+    display: block;
+  }
 
-    .responsive-mainContainer-left {
-        flex: 1 1;
-        display: flex;
-        transform: translateX(50px);
-        justify-content: center;
-    }
+  .responsive-mainContainer-left {
+    flex: 1 1;
+    display: flex;
+    transform: translateX(50px);
+    justify-content: center;
+  }
 
-    .responsive-mainContainer-right {
-        flex: 4 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
+  .responsive-mainContainer-right {
+    flex: 4 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} */

@@ -1,27 +1,21 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
-import ContentHeader from '../../components/ContentHeader'
+// Components
+import ContentHeader from "~/components/ContentHeader";
+import SearchButton from "~/components/SearchButton";
+import Page from "~/components/Page";
 
-import './styles.css'
-import SearchButton from '../../components/SearchButton'
-import { Link } from 'react-router-dom'
-import { useAuth } from '../../contexts'
+// Context
+import { useAuth } from "~/contexts";
+
+import "./styles.scss";
 
 function ConfrimResult() {
-  function HandleScroll() {
-    console.log('alo')
-  }
-  const { setNumProcesso, setCpfUser } = useAuth()
+  const { setNumProcesso, setCpfUser } = useAuth();
   return (
-    <div className="container">
-      {HandleScroll}
-      <Header />
-
-      <ContentHeader searchProcess={false} />
-
+    <Page>
       <div className="processNumber-container dif">
         <form>
           <div className="field">
@@ -43,9 +37,8 @@ function ConfrimResult() {
           </button>
         </div>
       </div>
-      <Footer />
-    </div>
-  )
+    </Page>
+  );
 }
 
-export default ConfrimResult
+export default ConfrimResult;

@@ -1,41 +1,46 @@
-import React from 'react';
+import React from "react";
 
-import twitter from '../../assets/icons/twitter.svg'
-import youtube from '../../assets/icons/youtube.svg'
-import facebook from '../../assets/icons/facebook.svg'
-import flickr from '../../assets/icons/flickr.svg'
-import footerIcons from '../../assets/icons/footer-icons.svg'
+import TwitterImg from "~/assets/icons/twitter.svg";
+import YoutubeImg from "~/assets/icons/youtube.svg";
+import FacebookImg from "~/assets/icons/facebook.svg";
+import FlickrImg from "~/assets/icons/flickr.svg";
+import FooterIconsImg from "~/assets/icons/footer-icons.svg";
 
-
-
-import './styles.css';
+import "./styles.scss";
 
 function Footer() {
+  function handleNavigateToTop() {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  }
 
-    function handleNavigateToTop(){
-        $('html, body').animate({scrollTop:0}, 'slow');
-    }
+  return (
+    <div className="footer bg-color-dark-blue">
+      <button className="back-to-top" onClick={handleNavigateToTop}>
+        Voltar ao topo
+      </button>
 
-    return (
-        <div className='footer-container'>
-            <h3 className='goToTop' onClick={handleNavigateToTop}>Voltar ao topo</h3>
+      <div className="container-lg py-3">
+        <span>REDES SOCIAIS</span>
 
-            <div className='footer-content'>
-                <h2>REDES SOCIAIS</h2>
-
-                <div className='social-media-icons'>
-                    <a href="https://twitter.com/govbr"><img src={twitter} alt="twitter" /></a>
-                    <a href="https://www.youtube.com/user/CanalPortalBrasil"><img src={youtube} alt="youtube" id='youtube' /></a>
-                    <a href="https://www.facebook.com/governodobrasil"><img src={facebook} alt="facebook" /></a>
-                    <a href="https://www.flickr.com/photos/palaciodoplanalto"><img src={flickr} alt="flickr" /></a>
-                </div>
-
-                <img src={footerIcons} alt="" />
-
-                <p className='license'>Todo o conteúdo deste site está publicado sob a licença {"\n"} <strong>Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada.</strong></p>
-            </div>
+        <div>
+          <a href="https://twitter.com/govbr">
+            <img src={TwitterImg} alt="twitter" />
+          </a>
+          <a href="https://www.youtube.com/user/CanalPortalBrasil">
+            <img src={YoutubeImg} alt="youtube" id="youtube" />
+          </a>
+          <a href="https://www.facebook.com/governodobrasil">
+            <img src={FacebookImg} alt="facebook" />
+          </a>
+          <a href="https://www.flickr.com/photos/palaciodoplanalto">
+            <img src={FlickrImg} alt="flickr" />
+          </a>
         </div>
-    );
+
+        <img src={FooterIconsImg} alt="" />
+      </div>
+    </div>
+  );
 }
 
 export default Footer;

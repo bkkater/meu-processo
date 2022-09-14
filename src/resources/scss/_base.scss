@@ -1,0 +1,20 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  top: 0 !important;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+
+  // Typography
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  color: $base-text-color;
+}
