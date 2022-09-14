@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import './assets/styles/global.css'
-import AuthProvider from './contexts'
-import Routes from './routes'
+import AuthProvider from "~/contexts";
+import Routes from "~/routes";
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
         <Routes />
       </AuthProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
