@@ -23,6 +23,8 @@ Front End
 - React
 - Typescript
 - jQuery
+- Bootstrap
+- SCSS
 
 Back End
 
