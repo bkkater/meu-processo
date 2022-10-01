@@ -1,42 +1,41 @@
 .ConfirmResultCard-container {
-    background-color: var(--color-background);
-    color: var(--text);
+  background-color: var(--color-background);
+  color: var(--text);
 
-    border-radius: 10px;
-    padding: 25px;
+  border-radius: 10px;
+  padding: 25px;
 
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 
-    position: relative;
+  position: relative;
 
-    background-image: url('../../assets/icons/illustration-dif.svg');
-    background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: 88% 76%;
+  background-image: url("../../resources/icons/illustration-dif.svg");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 88% 76%;
 
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 25px;
 
-    border: 1px solid #E5E5E5;
-    box-sizing: border-box;
-    border-radius: 25px;
-
-    height: 760px;
+  height: 760px;
 }
 
 .titleText-inWhite {
-    font-size: 24px;
-    line-height: 28px;
-    height: 62px;
-    width: 313px;
+  font-size: 24px;
+  line-height: 28px;
+  height: 62px;
+  width: 313px;
 
-    color: var(--text-in-white);
+  color: var(--text-in-white);
 }
 
 .contentCard-conteiner {
-    display: flex;
+  display: flex;
 
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .next-page {
-    margin-bottom: -5px;
+  margin-bottom: -5px;
 }

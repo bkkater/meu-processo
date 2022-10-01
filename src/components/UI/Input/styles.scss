@@ -1,0 +1,23 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+
+  & + .input-group {
+    margin-top: 1rem;
+  }
+
+  label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000;
+  }
+
+  input {
+    padding: 0.5rem 1rem;
+    background: #eeeeee;
+    border-radius: 5px;
+
+    border: none;
+    outline: none;
+  }
+}

@@ -8,9 +8,9 @@ import ConfirmResult from "~/pages/ConfirmResult";
 function Routes() {
   return (
     <BrowserRouter>
-      <Route path="/" exact component={Landing} />
-      <Route path="/ConfirmResult" component={ConfirmResult} />
-      <Route path="/Home" component={Home} />
+      <Route path="/" exact component={Home} />
+      <Route path="/inserir-dados" component={Landing} />
+      <Route path="/confirmar-resultado" component={ConfirmResult} />
     </BrowserRouter>
   );
 }

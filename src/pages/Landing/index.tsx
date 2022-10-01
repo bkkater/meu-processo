@@ -1,44 +1,42 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 // Components
-import ContentHeader from "~/components/ContentHeader";
-import SearchButton from "~/components/SearchButton";
+import Input from "~/components/UI/Input";
 import Page from "~/components/Page";
+import Card from "~/components/Card";
+import Button from "~/components/UI/Button";
 
 // Context
 import { useAuth } from "~/contexts";
 
+// Icons
+import LogoMeuProcesso from "~/resources/icons/logo.svg";
+
 import "./styles.scss";
 
-function ConfrimResult() {
-  const { setNumProcesso, setCpfUser } = useAuth();
+function Landing() {
+  const history = useHistory();
+
+  const onSubmit = () => {
+    history.push("confirmar-resultado");
+  };
+
   return (
     <Page>
-      <div className="processNumber-container dif">
-        <form>
-          <div className="field">
-            <label>Número do processo</label>
-            <input type="text" />
-          </div>
+      <img src={LogoMeuProcesso} alt="Meu Processo" className="mb-3" />
 
-          <div className="field">
-            <label>O seu CPF</label>
-            <input type="text" />
-          </div>
+      <Card>
+        <form onSubmit={onSubmit}>
+          <Input label="Número do processo" id="number-process" />
+          <Input label="O seu CPF" id="cpf" />
+
+          <Button type="submit" className="button-submit" label="Prosseguir" />
         </form>
-
-        <div className="next-page">
-          <button type="submit" className="button-submit">
-            <Link to="/ConfirmResult" className="">
-              <SearchButton name="Prosseguir" />
-            </Link>
-          </button>
-        </div>
-      </div>
+      </Card>
     </Page>
   );
 }
 
-export default ConfrimResult;
+export default Landing;

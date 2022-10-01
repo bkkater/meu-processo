@@ -21,9 +21,6 @@ const ContentHeader: React.FC<ContentHeaderProps> = ({ searchProcess }) => {
           <Link to="/Landing" className="link">
             Voltar para pesquisa
           </Link>
-          <a href="https://www.gov.br/acessoainformacao/pt-br" className="link">
-            ajuda
-          </a>
         </div>
         <div className="content-header">
           <img src={Logo} alt="Meu Processo" />

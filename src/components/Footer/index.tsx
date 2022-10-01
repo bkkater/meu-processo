@@ -1,24 +1,16 @@
 import React from "react";
 
-import TwitterImg from "~/assets/icons/twitter.svg";
-import YoutubeImg from "~/assets/icons/youtube.svg";
-import FacebookImg from "~/assets/icons/facebook.svg";
-import FlickrImg from "~/assets/icons/flickr.svg";
-import FooterIconsImg from "~/assets/icons/footer-icons.svg";
+import TwitterImg from "~/resources/icons/twitter.svg";
+import YoutubeImg from "~/resources/icons/youtube.svg";
+import FacebookImg from "~/resources/icons/facebook.svg";
+import FlickrImg from "~/resources/icons/flickr.svg";
+import FooterIconsImg from "~/resources/icons/footer-icons.svg";
 
 import "./styles.scss";
 
 function Footer() {
-  function handleNavigateToTop() {
-    $("html, body").animate({ scrollTop: 0 }, "slow");
-  }
-
   return (
     <div className="footer bg-color-dark-blue">
-      <button className="back-to-top" onClick={handleNavigateToTop}>
-        Voltar ao topo
-      </button>
-
       <div className="container-lg py-3">
         <span>REDES SOCIAIS</span>
 
