@@ -29,7 +29,7 @@ function Footer() {
           </a>
         </div>
 
-        <img src={FooterIconsImg} alt="" />
+        <img src={FooterIconsImg} alt="" className="mt-5" />
       </div>
     </div>
   );

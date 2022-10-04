@@ -1,23 +1,17 @@
-.input-group {
-  display: flex;
-  flex-direction: column;
+.button,
+.link-button {
+  color: white;
+  background-color: #1555bd;
+  text-decoration: none;
+  font-weight: bold;
 
-  & + .input-group {
-    margin-top: 1rem;
-  }
+  align-self: end;
+  width: 150px;
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
 
-  label {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: #000;
-  }
-
-  input {
-    padding: 0.5rem 1rem;
-    background: #eeeeee;
-    border-radius: 5px;
-
-    border: none;
-    outline: none;
+  &:hover {
+    color: white;
   }
 }

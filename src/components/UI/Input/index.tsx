@@ -5,6 +5,7 @@ import "./styles.scss";
 interface InputProps {
   label?: string;
   id: string;
+  [rest: string]: any;
 }
 
 const Input: React.FC<InputProps> = ({ label, id, ...rest }) => {

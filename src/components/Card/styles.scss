@@ -1,6 +1,45 @@
 .card {
-  padding: 1rem;
-  background-color: transparent !important;
+  &-container {
+    background-color: transparent !important;
+    border-radius: 25px !important;
+    padding: 1.5rem;
 
-  width: 400px;
+    height: fit-content !important;
+    min-height: 320px !important;
+    width: 90%;
+    max-width: 700px;
+  }
+
+  &-info {
+    padding: 0.5rem 1rem;
+    background-color: #4d78bd !important;
+    border: none !important;
+    border-radius: 5px !important;
+
+    &:last-of-type {
+      align-items: flex-end;
+    }
+
+    span:first-of-type {
+      font-weight: normal;
+      margin-bottom: 0;
+      color: white;
+    }
+
+    span:last-of-type {
+      padding: 0;
+      background-color: transparent;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: bold;
+      width: fit-content;
+    }
+  }
+
+  &-regular {
+  }
+
+  & + & {
+    margin-top: 0.5rem;
+  }
 }

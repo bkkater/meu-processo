@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 // Components
 import Input from "~/components/UI/Input";
@@ -8,13 +8,8 @@ import Page from "~/components/Page";
 import Card from "~/components/Card";
 import Button from "~/components/UI/Button";
 
-// Context
-import { useAuth } from "~/contexts";
-
 // Icons
 import LogoMeuProcesso from "~/resources/icons/logo.svg";
-
-import "./styles.scss";
 
 function Landing() {
   const history = useHistory();
@@ -25,14 +20,14 @@ function Landing() {
 
   return (
     <Page>
-      <img src={LogoMeuProcesso} alt="Meu Processo" className="mb-3" />
+      <img src={LogoMeuProcesso} alt="Meu Processo" className="mb-5" />
 
-      <Card>
-        <form onSubmit={onSubmit}>
+      <Card className="card-container">
+        <form className="d-flex flex-column">
           <Input label="Número do processo" id="number-process" />
           <Input label="O seu CPF" id="cpf" />
 
-          <Button type="submit" className="button-submit" label="Prosseguir" />
+          <Button type="submit" label="Prosseguir" onClick={onSubmit} />
         </form>
       </Card>
     </Page>

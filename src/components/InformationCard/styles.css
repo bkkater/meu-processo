@@ -9,10 +9,10 @@
 
   position: relative;
 
-  background-image: url("../../resources/icons/illustration.svg");
+  /* background-image: url("../../resources/icons/illustration.svg");
   background-repeat: no-repeat;
   background-size: 70%;
-  background-position: 150% 110%;
+  background-position: 150% 110%; */
 }
 
 .titleText-inWhite {
@@ -49,10 +49,10 @@
 
     position: relative;
 
-    background-image: url("../../resources/icons/illustration.svg");
+    /* background-image: url("../../resources/icons/illustration.svg");
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: 150% 110%;
-    flex: 1;
+    flex: 1; */
   }
 }

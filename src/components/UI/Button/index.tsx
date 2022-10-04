@@ -2,14 +2,14 @@ import React from "react";
 
 import "./styles.scss";
 
-interface InputProps {
+interface ButtonProps {
   label?: string;
   className?: string;
   onClick: React.MouseEventHandler<HTMLButtonElement>;
-  [x: string]: any;
+  [rest: string]: any;
 }
 
-const Input: React.FC<InputProps> = ({
+const Button: React.FC<ButtonProps> = ({
   label,
   onClick,
   className,
@@ -28,4 +28,4 @@ const Input: React.FC<InputProps> = ({
   );
 };
 
-export default Input;
+export default Button;
