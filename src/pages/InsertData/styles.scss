@@ -1,0 +1,20 @@
+.insert-data {
+  .card {
+    min-height: 320px !important;
+    width: 90%;
+    max-width: 700px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      border-radius: 25px 25px 0 0;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #1555bd;
+      width: calc(100% - 12px);
+      height: 10px;
+      z-index: -1;
+    }
+  }
+}

@@ -1,42 +1,45 @@
 .card {
   &-container {
     background-color: transparent !important;
-    border-radius: 25px !important;
-    padding: 1.5rem;
-
     height: fit-content !important;
-    min-height: 320px !important;
-    width: 90%;
-    max-width: 700px;
+  }
+
+  &.bg-dark-blue {
+    color: white;
+    background-color: #071c3d;
+  }
+
+  &.bg-blue {
+    color: white;
+    background-color: #4d78bd;
+  }
+
+  &-home,
+  &-content {
+    border: none !important;
+  }
+
+  &-home {
+    background-color: #e9e9e9 !important;
+  }
+
+  &-home,
+  &-container,
+  &-content {
+    padding: 1.5rem;
+    border-radius: 25px !important;
   }
 
   &-info {
     padding: 0.5rem 1rem;
-    background-color: #4d78bd !important;
     border: none !important;
     border-radius: 5px !important;
-
-    &:last-of-type {
-      align-items: flex-end;
-    }
-
-    span:first-of-type {
-      font-weight: normal;
-      margin-bottom: 0;
-      color: white;
-    }
-
-    span:last-of-type {
-      padding: 0;
-      background-color: transparent;
-      color: white;
-      font-size: 1.1rem;
-      font-weight: bold;
-      width: fit-content;
-    }
   }
 
-  &-regular {
+  &-content {
+    & + & {
+      margin-top: 1.5rem !important;
+    }
   }
 
   & + & {

@@ -5,6 +5,8 @@
 
   .card {
     position: relative;
+    width: 90%;
+    max-width: 700px;
 
     img {
       position: absolute;
@@ -22,6 +24,38 @@
     &-info {
       display: flex;
       max-width: 300px;
+
+      &:last-of-type {
+        align-items: flex-end;
+      }
+
+      span:first-of-type {
+        font-weight: normal;
+        margin-bottom: 0;
+        color: white;
+      }
+
+      span:last-of-type {
+        padding: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: bold;
+        width: fit-content;
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      border-radius: 25px 25px 0 0;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #1555bd;
+      width: calc(100% - 12px);
+      height: 10px;
+      z-index: -1;
     }
   }
 }

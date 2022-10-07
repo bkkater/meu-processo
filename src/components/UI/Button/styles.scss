@@ -1,16 +1,29 @@
-.button,
-.link-button {
-  color: white;
-  background-color: #1555bd;
-  text-decoration: none;
+.button {
   font-weight: bold;
+}
 
-  align-self: end;
-  width: 150px;
-  padding: 0.5rem 2rem;
+.button:not(.btn-default) {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.btn-default,
+.link-button {
   margin-top: 2rem;
-  border-radius: 5px;
+  padding: 0.5rem 2rem;
 
+  background-color: #1555bd;
+  border: #0c2c5f;
+  color: white;
+
+  width: 150px;
+  border-radius: 5px;
+  align-self: end;
+}
+
+.link-button {
+  font-weight: bold;
+  text-decoration: none;
   &:hover {
     color: white;
   }

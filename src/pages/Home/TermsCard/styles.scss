@@ -1,0 +1,58 @@
+.home {
+  #terms-card {
+    margin-top: 1.5rem;
+
+    .terms-alphabet {
+      display: flex;
+      flex-direction: row;
+      overflow: auto hidden;
+
+      .card {
+        height: 150px;
+        width: 180px;
+        min-width: 180px;
+
+        span {
+          font-weight: bold;
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+
+        & + .card {
+          margin-top: 0;
+          margin-left: 1rem;
+        }
+      }
+    }
+
+    .terms-info {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+      width: fit-content;
+
+      input {
+        max-width: 300px;
+        background-color: #040f20;
+      }
+
+      button {
+        margin-top: 0;
+        margin-left: 1rem;
+      }
+
+      @media (min-width: 992px) {
+        margin-right: 1rem;
+        flex-direction: column;
+
+        button {
+          margin-left: auto;
+          margin-top: 1.5rem;
+        }
+      }
+    }
+  }
+}

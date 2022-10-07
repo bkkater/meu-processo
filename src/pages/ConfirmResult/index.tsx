@@ -18,12 +18,12 @@ function ConfirmResult() {
           Paulo, você esta tentando acessar esse processo?
         </span>
 
-        <Card className="card-info">
+        <Card className="card-info bg-blue">
           <span>De</span>
           <span>Jõao Augusto</span>
         </Card>
 
-        <Card className="card-info">
+        <Card className="card-info bg-blue">
           <span>Contra</span>
           <span>Correios</span>
         </Card>

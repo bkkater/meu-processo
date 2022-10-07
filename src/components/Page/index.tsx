@@ -3,6 +3,7 @@ import React from "react";
 // Components
 import Footer from "~/components/Footer";
 import NavBar from "~/components/NavBar";
+import Button from "../UI/Button";
 
 // Styles
 import "./styles.scss";
@@ -13,9 +14,7 @@ interface PageProps {
 }
 
 const Page: React.FC<PageProps> = ({ className, children }) => {
-  const classList = [
-    "page d-flex flex-column justify-content-between min-vh-100",
-  ];
+  const classList = ["page-content"];
 
   if (className) {
     classList.push(className);
@@ -25,10 +24,10 @@ const Page: React.FC<PageProps> = ({ className, children }) => {
   };
 
   return (
-    <div className={classList.join(" ")}>
+    <div className="page d-flex flex-column justify-content-between min-vh-100">
       <NavBar />
 
-      <div className="page-content">
+      <div className={classList.join(" ")}>
         <a
           href="https://www.gov.br/acessoainformacao/pt-br"
           className="btn-help"
@@ -37,9 +36,11 @@ const Page: React.FC<PageProps> = ({ className, children }) => {
         </a>
         {children}
 
-        <button className="btn-backToTop" onClick={handleNavigateToTop}>
-          Voltar ao topo
-        </button>
+        <Button
+          className="btn-backToTop"
+          onClick={handleNavigateToTop}
+          label=" Voltar ao topo"
+        />
       </div>
 
       <Footer />

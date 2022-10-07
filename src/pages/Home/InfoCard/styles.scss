@@ -1,0 +1,35 @@
+.home {
+  #info-card {
+    position: relative;
+    flex: 2;
+
+    .card-info {
+      z-index: 2;
+      max-width: 420px;
+
+      > span:last-of-type {
+        font-weight: bold;
+      }
+
+      &:nth-of-type(2) {
+        align-items: flex-end;
+      }
+    }
+
+    .card-info.date {
+      display: flex;
+      justify-content: space-between;
+      height: 120px;
+      width: 150px;
+      padding: 1rem;
+    }
+
+    img {
+      position: absolute;
+      width: 40%;
+      bottom: 15px;
+      right: 15px;
+      max-height: 90%;
+    }
+  }
+}

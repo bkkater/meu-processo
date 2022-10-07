@@ -1,0 +1,57 @@
+.home {
+  .situation-info {
+    margin-top: 1.5rem;
+
+    p:first-of-type {
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    > div:first-of-type {
+      position: relative;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      max-width: 660px;
+      margin-right: 1rem;
+
+      p {
+        margin-bottom: 2px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: -15px;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        background-color: #1555bd;
+        border-radius: 5px;
+      }
+    }
+
+    > div:last-of-type {
+      padding: 1rem;
+      width: 250px;
+      min-width: 200px;
+
+      img {
+        margin-left: auto;
+        width: 50px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      > div:last-of-type {
+        margin-top: 1rem;
+        padding: 0;
+        background-color: transparent;
+        color: initial;
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
