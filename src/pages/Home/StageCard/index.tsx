@@ -40,7 +40,7 @@ function StageCard() {
 
   const mockedDate = [
     {
-      value: 97,
+      value: 209,
       label: "Dias",
     },
     {

@@ -7,7 +7,7 @@ const CONFIG_CHART = {
       id: "radial-bar",
     },
     labels: ["Concluído"],
-    colors: ["#4d78bd"],
+    colors: ["#333"],
   },
   series: [100],
 };

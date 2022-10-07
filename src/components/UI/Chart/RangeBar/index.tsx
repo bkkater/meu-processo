@@ -18,29 +18,29 @@ const CONFIG_CHART = {
     {
       data: [
         {
-          x: "Tipo A",
-          y: 48,
+          x: "Abertura",
+          y: [0, 92],
         },
         {
-          x: "Tipo B",
-          y: 6,
+          x: "Julgamento",
+          y: [92, 191],
         },
         {
-          x: "Tipo C",
-          y: 46,
+          x: "Finalização",
+          y: [191, 209],
         },
       ],
     },
   ],
 };
 
-export default function HorizontalBar() {
+export default function RangeBar() {
   return (
     <>
       <Chart
         options={CONFIG_CHART.options}
         series={CONFIG_CHART.series}
-        type="bar"
+        type="rangeBar"
         height={350}
       />
     </>

@@ -1,18 +1,16 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useEffect } from "react";
+import React from "react";
 
 // Components
 import Page from "~/components/Page";
 import Card from "~/components/Card";
-
-// Services
-import api from "~/services/api";
 
 // Partials
 import SituationCard from "./SituationCard";
 import StageCard from "./StageCard";
 import InfoCard from "./InfoCard";
 import TermsCard from "./TermsCard";
+import DataCard from "./DataCard";
 
 // Icons
 import logo from "~/resources/icons/logo_small.png";
@@ -20,12 +18,6 @@ import logo from "~/resources/icons/logo_small.png";
 import "./styles.scss";
 
 function Home() {
-  useEffect(() => {}, []);
-  // const request = async (processo_number: string, cpf_user: string) => {
-  //   const response = await api.get(`processo/${processo_number}/${cpf_user}`);
-  //   return response.data;
-  // };
-
   return (
     <Page className="home">
       <div className="d-xl-flex flex-row w-100">
@@ -33,22 +25,27 @@ function Home() {
           <img src={logo} alt="Meu Processo" width="193px" height="108px" />
 
           <div className="d-xl-flex d-none flex-column align-items-center">
-            <a className="sectionLink" href="#situation-card">
+            <a className="section-link" href="#situation-card">
               Situação
             </a>
-            <a className="sectionLink" href="#stage-card">
+            <a className="section-link" href="#stage-card">
               Etapas
             </a>
-            <a className="sectionLink" href="#info-card">
+            <a className="section-link" href="#info-card">
               Informações
             </a>
-            <a className="sectionLink" href="#info-card">
+            <a className="section-link" href="#info-card">
               Instituição
             </a>
-            <a className="sectionLink" href="#terms-card">
+            <a className="section-link" href="#terms-card">
               Dicionário
             </a>
-            <a href="https://www5.trf5.jus.br/cp/">Ver na integra</a>
+            <a className="section-link" href="#terms-card">
+              Outros dados
+            </a>
+            <a href="https://www.trf5.jus.br/index.php/consulta-processual-fisico-e-eletronico">
+              Ver na integra
+            </a>
           </div>
         </nav>
 
@@ -84,6 +81,7 @@ function Home() {
             </div>
 
             <TermsCard />
+            <DataCard />
           </Card>
         </div>
       </div>

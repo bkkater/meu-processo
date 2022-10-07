@@ -1,0 +1,43 @@
+.home {
+  #data-card {
+    h3 > strong {
+      color: #1555bd;
+    }
+
+    > p {
+      position: relative;
+      font-size: 1.1rem;
+      margin: 1.5rem 0 2rem 1.5rem;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: -15px;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        background-color: #1555bd;
+        border-radius: 5px;
+      }
+    }
+
+    .data-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-right: 1rem;
+
+      .card-regular {
+        display: flex;
+        justify-content: center;
+        min-width: 150px;
+        margin: 0;
+        padding: 1rem;
+
+        strong {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}

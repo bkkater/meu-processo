@@ -20,6 +20,10 @@
           margin-top: 1rem;
         }
       }
+
+      a:not(.section-link) {
+        color: #333;
+      }
     }
   }
 
