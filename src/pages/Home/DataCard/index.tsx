@@ -27,7 +27,7 @@ function DataCard() {
   ];
 
   return (
-    <Card className="card-content bg-white d-lg-block d-none" id="data-card">
+    <Card className="card-content bg-white" id="data-card">
       <h3 className="mb-4">
         Dados sobre o <strong>TRF5</strong>
       </h3>
@@ -42,7 +42,7 @@ function DataCard() {
         sua análise).
       </p>
 
-      <div className="d-flex">
+      <div className="d-lg-flex ">
         <div className="data-info">
           {mockedDate.map((item) => (
             <Card className="card-regular bg-blue">
